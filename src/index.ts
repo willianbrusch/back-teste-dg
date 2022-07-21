@@ -1,5 +1,6 @@
 import express, { NextFunction, Request, Response } from "express";
-import { AppDataSource } from "./data-source";
+import "express-async-errors";
+import { AppDataSource } from "./dataSource";
 import { AppError } from "./errors/appError";
 import routes from "./routes";
 
